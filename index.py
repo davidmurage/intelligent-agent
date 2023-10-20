@@ -1,6 +1,6 @@
 import random
 
-# Function to print the Tic Tac Toe board
+# Function to print  Tic Tac Toe board
 def print_board(board):
     for row in board:
         print(" | ".join(row))

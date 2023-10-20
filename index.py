@@ -21,7 +21,7 @@ def check_win(board, player):
 
     return False
 
-# Function to check for a tie
+# Function to check for a tie/draw
 def check_tie(board):
     return all(cell != " " for row in board for cell in row)
 
